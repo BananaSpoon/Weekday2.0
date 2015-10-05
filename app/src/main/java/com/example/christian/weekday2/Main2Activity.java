@@ -13,8 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-public class Main2Activity extends ActionBarActivity {
-    public TextView tout;
+public class Main2Activity extends ActionBarActivity 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +28,8 @@ public class Main2Activity extends ActionBarActivity {
     private void handleIntent() {
         Intent i = getIntent();
         String day_out = i.getStringExtra("Output");
-        TextView tv_out = (TextView) findViewById(R.id.text_second);
-        tv_out.setText(day_out);
+        TextView tout = (TextView) findViewById(R.id.text_second);
+        tout.setText(day_out);
     }
 
     @Override
