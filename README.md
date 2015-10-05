@@ -1,4 +1,4 @@
-# Linking Android Activities (secondactivityassignment-melvincabatuan)
+# Linking Android Activities (secondactivityassignment)
 
 secondactivityassignment-melvincabatuan created by Classroom for GitHub
 
